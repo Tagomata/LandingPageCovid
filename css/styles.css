@@ -1,0 +1,152 @@
+:root {
+  --verdeOscuro: #083c40;
+  --blancoCrema: #f7f1dc;
+}
+
+@font-face {
+  font-family: "OpenSansExtraBold";
+  src: url("../fonts/OpenSans-ExtraBold.woff2") format("woff2"),
+    url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSans-Light.woff2") format("woff2"),
+    url("../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  background: var(--verdeOscuro);
+}
+
+.contenedor {
+  margin: 0 85px 0 80px;
+}
+
+.site-header {
+  padding: 1rem 0 3rem 0;
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contenedor-header a img {
+  height: 100%;
+  width: 45%;
+  margin-top: 20px;
+}
+
+.navegacion a {
+  color: #f7f1dc;
+  font-family: OpenSansBold;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 5rem;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.titulo {
+  padding-top: ;
+  color: #f7f1dc;
+  font-family: OpenSansExtraBold;
+  font-size: 65px;
+}
+
+.titulo h1 {
+  margin-bottom: 0;
+  margin-top: 2rem;
+  line-height: 10rem;
+}
+
+.parrafo {
+  color: #f7f1dc;
+  font-family: OpenSansRegular;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+.content-principal {
+  display: flex;
+}
+
+.content-principal-information {
+  width: 60%;
+}
+
+.content-principal-image {
+  width: 40%;
+}
+.content-principal-image img {
+  position: absolute;
+  right: 5rem;
+  top: 11rem;
+  width: 45%;
+}
+
+.virus {
+  position: absolute;
+  left: 42rem;
+  bottom: 2rem;
+}
+
+.virus1 {
+  position: absolute;
+  left: 39rem;
+  top: 2rem;
+  height: 27%;
+}
+.virus2 {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+  height: 10rem;
+}
+
+.footer {
+  margin-top: 8rem;
+}
+
+.footer img {
+  width: 15%;
+  margin-left: 0;
+}
+
+.contenido1 {
+  margin-right: 40px;
+}
+
+.titulo2 {
+  font-weight: 3px;
+}
